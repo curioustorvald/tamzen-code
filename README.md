@@ -12,3 +12,6 @@ Edit of the [sunaku/tamzen-font](https://github.com/sunaku/tamzen-font) to be us
 
 ### Recommended settings
 - Font size is 10 pt or 13 px. For IntelliJ IDEA, use size 13 and line height 1.0
+
+### Sample images
+![sample](sample.png)
