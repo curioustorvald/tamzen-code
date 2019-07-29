@@ -1,5 +1,5 @@
 # Tamzen Code
-Edit of the [sunaku/tamzen-font](https://github.com/sunaku/tamzen-font) to be used with IDEs on Windows
+Edit of the [tamzen-font](https://github.com/sunaku/tamzen-font) to be used with IDEs on Windows
 
 ### Changes
 - No more name clash between different sizes of original TTF
@@ -7,11 +7,22 @@ Edit of the [sunaku/tamzen-font](https://github.com/sunaku/tamzen-font) to be us
 - Tighter vertical margin — should be compatible with font size of 10 pt
 - More distinguishable 'M' and 'W'
 - Adjusted some of the diacritics
-- Some glyphs are more prettier, e.g. ¤
+- Re-draw some of the glyphs, e.g. ¤
 - Boldface only
 
 ### Recommended settings
-- Font size is 10 pt or 13 px. For IntelliJ IDEA, use size 13 and line height 1.0
+- General: Font size of 10 pt or 13 px
+- IntelliJ: font size of 13 with line height of 1.0
+- Sublime Text: 
+```
+"font_face": "TamzenCode7x14",
+"font_options":
+[
+	"gray_antialias",
+	"no_bold"
+],
+"font_size": 10,
+```
 
 ### Sample images
 ![sample](sample.png)
